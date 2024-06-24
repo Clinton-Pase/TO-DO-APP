@@ -52,10 +52,10 @@ var sun = document.getElementById("sun")
 sun.onclick = function() {
   document.body.classList.toggle("dark-theme");
 if(document.body.classList.contains("dark-theme")){
-    sun.src = "/images/icon-sun.png";
+    sun.src = "./images/icon-sun.png";
 }
 
 else{
-    sun.src = "/images/icon-moon.png";
+    sun.src = "./images/icon-moon.png";
 }
 }
